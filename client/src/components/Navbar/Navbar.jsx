@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { NavLink } from "react-router-dom";
 import "../Navbar/Navbar.scss";
 import { ImMenu } from "react-icons/im";
-import { ReactComponent as Brand } from "../../assets/logo.svg";
+import { ReactComponent as Logo } from "../../assets/logoBlack.svg";
 
 const Navbar = () => {
 
@@ -16,7 +16,7 @@ const Navbar = () => {
         <nav className="navbar">
             <div className="container">
                 <div className="navbar_logo">
-                    <Brand />
+                    <Logo />
                 </div>
                 <div className="menu_icon" onClick={handleShowNavbar}>
                     <ImMenu />
